@@ -1,0 +1,57 @@
+html, body {
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+
+	}
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+.slider {
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    width: 150px;
+    color: white;
+    font-family: sans-serif;
+    text-align: right;
+}
+.slider input {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.header {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	color: #f9f1e9;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+}
+
+.main-title {
+	text-transform: uppercase;
+	font-size: 0.2em;
+	letter-spacing: 0.1em;
+    transition: all 4s ease-in-out;
+    
+}
+
+.main-title .thin {
+	font-weight: 200;
+}
+
+.Mainview{
+	padding: 0;
+	margin: 0;
+	position: relative;
+}
+
